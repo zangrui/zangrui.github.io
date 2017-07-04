@@ -1,6 +1,5 @@
-## Welcome to GitHub Pages
+## 张锐
 <hr>
- ## zr
 <h1>张锐</h1>
 <hr>
 <h3>作业：</h3>
