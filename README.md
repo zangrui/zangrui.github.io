@@ -2,7 +2,6 @@
 <hr>
 <h1>张锐</h1>
 <hr>
-<h3>网页：</h3>
 <p><a href="https://zangrui.github.io/1115">1115</a></p>
 <p><a href="https://zangrui.github.io/zy/1205/index.html">1205</a></p>
 <p><a href="https://zangrui.github.io/zy/1209/index.html">1209</a></p>
