@@ -1,5 +1,3 @@
-## Welcome to GitHub Pages
-<hr>
 <h1>张锐</h1>
 <hr>
 <p><a href="https://zangrui.github.io/1115">1115</a></p>
