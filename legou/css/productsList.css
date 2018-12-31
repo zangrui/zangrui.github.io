@@ -1,0 +1,211 @@
+/* 产品列表 */
+/* 头部 */
+#header .nav .allGoodCategory{
+    background: #93d46f;
+}
+/* 轮播 */
+#banner #bannerBox .controls>li{
+    line-height: 24px;
+}
+/* 热卖畅销书列表 */
+#banner .booksList{
+    width: 200px;
+}
+#banner .booksList h1{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    background: #93d46f;
+    text-indent: 10px;
+}
+#banner .booksList>ul>li{
+    height: 40px;
+    border-bottom: 1px solid #b3b3b3;
+    overflow: hidden;
+}
+#banner .booksList>ul>li:first-child{
+    height: 123px;
+}
+#banner .booksList>ul>li img{
+    width: 80px;
+    height: 100px;
+    margin: 10px 10px 20px;
+}
+#banner .booksList>ul>li .desc{
+    width: 100px;
+}
+#banner .booksList>ul>li:nth-child(-n+3) .desc span{
+    background: #ff6600;
+}
+#banner .booksList>ul>li .desc span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #b3b3b3;
+    color: #fff;
+    text-align: center;
+}
+#banner .booksList>ul>li .desc p{
+    font-size: 14px;
+    line-height: 18px;
+    color:#333;
+    margin-top: 20px;
+}
+#banner .booksList>ul>li .desc p a{
+    color:#333;
+}
+/* 图书折扣区 */
+#bookDiscount .sectionTitleBox h3{
+    width: 220px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    background: #ff6600;
+    text-align: center;
+}
+#bookDiscount .content>ul>li{
+    float: left;
+    width: 230px;
+    height: 280px;
+    margin-bottom: 10px; 
+    border: 1px solid #f2f2f2
+}
+#bookDiscount .content>ul>li:not(:nth-child(5n+1)){
+    margin-left: 10px;
+}
+#bookDiscount .content>ul>li .img{
+    padding-top: 5px;
+}
+#bookDiscount .content>ul>li .desc{
+    margin: 5px 10px;
+}
+#bookDiscount .content>ul>li .desc a{
+    font-size: 14px;
+    color: #333;
+}
+#bookDiscount .content>ul>li .recommend{
+    text-indent: 10px;
+}
+#bookDiscount .content>ul>li .price{
+    font-size: 24px;
+    color: #f4290d;
+    margin: 10px;
+}
+#bookDiscount .content>ul>li .price del{
+    color: #c0c0c0; 
+    margin-left: 22px;
+}
+#bookDiscount .content>ul>li:hover{
+    background: #f2f2f2;
+}
+/* 新书上架 */
+#newBook .ebooksLfet .sectionTitleBox h3{
+    font-size: 22px;
+}
+#newBook .ebooksLfet .content{
+    width: 900px;
+    border: 2px solid #e6e6e6;
+    border-top: none;
+}
+/* 图书展示共用样式 */
+.showBook>ul>li{
+    float: left;
+    width: 170px;
+    height: 220px;
+    line-height: 16px;
+    margin: 10px 5px;
+    padding-top: 10px;
+}
+.showBook>ul>li .author{
+    font-size: 14px;
+    color: #333;
+    margin: 4px 10px;
+}
+.showBook>ul>li .desc{
+    font-size: 14px;
+    margin: 6px 10px;
+    color: #808080;
+}
+.showBook>ul>li .price{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #f91616;
+}
+.showBook>ul>li .price del{
+    color: #b3b3b3; 
+    margin-left: 12px;
+}
+.showBook>ul>li:hover{
+    background: #f2f2f2;
+}
+/* 右侧手风琴效果 */
+#newBook .ebooksRight{
+    width: 280px;
+    height: 502px;
+    border: 2px solid #e6e6e6;
+    margin-top: 78px;
+}
+#newBook .ebooksRight h1{
+    margin-bottom: 2px;
+}
+#newBook .ebooksRight>ul>li .newBookTile{
+    height: 43px;
+    line-height: 43px;
+}
+/* 独家提供 */
+#exclusive .content{
+    width: 1200px;
+    height: 510px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e6e6e6;
+    overflow: hidden;
+}
+#exclusive .sectionTitleBox h3{
+    font-size: 22px;
+}
+#exclusive .showBook>ul>li {
+    margin: 10px 15px;
+}
+#exclusive .showBook>ul>li .img img{
+    width: 150px !important;
+    height: 150px !important;
+}
+
+
+/* 猜你喜欢 */
+#guessYouLike .content{
+    height: 510px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e6e6e6;
+    overflow: hidden;
+}
+#guessYouLike .content .showBook{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#guessYouLike .sectionTitleBox h3{
+    font-size: 22px;
+}
+#guessYouLike .sectionTitleBox h3 img{
+    margin-top: 10px;
+}
+#guessYouLike .showBook>ul>li {
+    margin: 10px 15px;
+}
+
+
+/* 广告 */
+#advertising p{
+    font-size: 0;
+}
+#advertising p:first-child{
+    margin: 30px 0 15px;
+}
+#advertising p:first-child img{
+    width: 200px;
+    height: 114px;
+}

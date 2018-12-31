@@ -1,0 +1,143 @@
+/* 头部样式 */
+
+/* 顶部 */
+#header .top{
+    height: 28px;
+    line-height: 28px;
+    background-color: #101010;
+    color:#bfbfbf;
+    font-size: 13px;
+}
+#header .top p{
+    text-align: right;
+    width: 1190px;
+    padding-right: 10px;
+}
+#header .top p span{
+    float: left;
+    color:#e6e6e6;
+    margin-left: 206px;
+}
+#header .top p a{
+    color: #ff6600;
+}
+/* 搜索框 & 购物&订单按钮  */
+#header .searchShopCart{
+    margin: 4px auto 20px;
+}
+.searchInput{
+    width: 440px;
+    font-size: 0;
+    margin-right:36px;
+} 
+.searchInput input{
+    width: 388px;
+    height: 32px;
+    border:2px solid #ff6600;
+    text-indent: 6px;   
+    font-size: 14px;
+    outline: none;
+}
+.searchInput ::-webkit-input-placeholder{
+    color: #d0d0d0;
+}
+.searchInput span.searchIcon{
+    display: inline-block;
+    width: 48px;
+    height: 36px;
+    vertical-align: bottom;
+    background-image: url(../img/bgicon.png);
+}
+/* 固定在顶部的搜索栏 */
+.topSearchInput {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 102, 0, 0.8);
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index:101;
+}
+.searchInput .logo{
+    display: inline-block;
+    position: relative;
+    top:-36px;
+    left: -160px;
+    color: #fff;
+    font-size: 24px;
+}
+#header .searchShopCart ul li{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+#header .searchShopCart ul li:first-child a{
+    display: inline-block;
+    background: #ff6600;
+    border: 1px solid #ff6600;
+    background-image: url(../img/bgicon.png);
+    background-position-y:-42px; 
+    font-size: 14px;
+    color: #ffffff;
+    text-indent: 35px; 
+    width: 98px;
+}
+#header .searchShopCart ul li:last-child a{
+    display: inline-block;
+    background: #ebebeb;
+    border: 1px solid #cccccc;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #808080; 
+    width: 98px;
+}
+/* 导航 */
+#header .nav{
+    position: relative;
+}
+#header .nav .logo{
+    position: absolute;
+    left: 0;
+    bottom: 24px;
+}
+#header .nav .logo img{
+    width: 200px;
+    height: 88px;
+}
+#header .nav .allGoodCategory{
+    height: 24px;
+    line-height: 24px;
+    width: 200px;
+    background: #ff6600;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+#header .nav .allGoodCategory span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-left:1px solid #ffffff;
+    border-bottom:1px solid #ffffff; 
+    transform: rotate(-45deg); 
+    margin:0 0 3px 16px;
+}
+#header .nav ul{
+    width: 988px;
+}
+#header .nav ul li{
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+#header .nav ul li a{
+    color: #323232;
+}
+#header .nav ul li:hover a{
+    color: #ff6600;
+}

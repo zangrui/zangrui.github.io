@@ -1,0 +1,56 @@
+/* 尾部 */
+#footer{
+    height: 470px;
+}
+#footer .footerTop{
+    height: 94px;
+    border-top: 6px solid #ff6600;
+    background: #f2f2f2;
+}
+#footer .footerTop img{
+    margin: 22px 46px;
+}
+#footer .footerContent ul{
+    width: 850px;
+    margin: 40px auto 45px;
+}
+#footer .footerContent ul li{
+    float: left;
+    margin: 0 25px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+#footer .footerContent ul li h4 a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+#footer .footerContent ul li p a{
+    color: #666;
+}
+#footer .footerBottom ul {
+    width: 850px;
+}
+#footer .footerBottom ul li{
+    float: left;
+    height: 18x;
+    line-height: 18px;
+    padding: 0 18px;
+
+}
+#footer .footerBottom ul li a{
+    font-size: 14px;
+    color: #333;
+}
+#footer .footerBottom ul li:not(:first-child){
+    border-left: 1px solid #000;
+}
+#footer .footerBottom p{
+    color: #333;
+    font-size: 14px;
+    margin-top: 25px;
+}
+#footer a:hover{
+    color: #f00 !important;
+}

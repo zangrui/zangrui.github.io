@@ -1,0 +1,149 @@
+/* 导航 */
+#header .top p span{
+    margin-left: 265px;
+}
+#header .nav{
+    height: 77px;
+    position: relative;
+}
+#header .nav > img{
+    position: absolute;
+    top: -28px;
+    left: 0;
+}
+#header .nav p{
+    height: 77px;
+    line-height: 77px;
+    color: #666;
+    font-size: 24px;
+    margin-left: 280px;
+}
+/* 主要内容 */
+#main{
+    background:#e93854;
+    margin-bottom: 100px;
+}
+#main .bannerimg{
+    position: relative;
+    height: 500px;
+    background: url(../img/a1.jpg) no-repeat -400px;
+}
+#main .loginform{
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    width: 350px;
+    background: #fff;
+    overflow: hidden;
+}
+#main .loginform .top {
+    height: 55px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}
+#main .loginform p.top span{
+    display: inline-block;
+    height: 24px;
+    width: 175px;
+    line-height: 24px;;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+}
+#main .loginform p.top span.active{
+    color: #ff6600;
+}
+#main .loginform .top>span:last-child{
+    width: 174px;
+    border-left: 1px solid #e6e6e6;
+}
+#main .loginform .form .item-fore1 input,#main .loginform .form .item-fore2 input{
+    width: 290px;
+    height: 38px;
+    border: 1px solid #bfbfbf;
+    margin: 20px 30px 0;
+    text-indent: 40px;
+}
+#main .loginform .form .item-fore1,#main .loginform .form .item-fore2{
+    position: relative;
+}
+#main .loginform .form .item-fore1 .icon1,#main .loginform .form .item-fore2 .icon1{
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    left: 31px;
+    width: 38px;
+    height: 38px;
+    background: url(../img/login-icons.png) no-repeat;
+}
+#main .loginform .form .item-fore3{
+    height: 36px;
+    line-height: 36px;
+    margin:0 30px;
+    font-size: 14px;
+    color: #4e4e4e;
+}
+#main .loginform .form .item-fore3 a{
+    line-height: 36px;
+    color: #4e4e4e;
+}
+#main .loginform .form .login-btn a{
+    display: inline-block;
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 30px 30px;
+    background: #ff6600;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+#main .loginform .bottom{
+    height: 50px;
+    line-height: 50px;
+    border-top: 2px solid #e6e6e6;
+    text-align: center;
+    font-size: 16px;
+    background: #fcfcfc;
+}
+#main .loginform .bottom a{
+    color: #ff6600;
+}
+#main .loginform .bottom span{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 16px;
+    height: 18px;
+    background: url(../img/login-icons.png) -104px -75px no-repeat;
+}
+#main .loginform .box{
+    width: 700px;
+}
+#main .loginform .box .ma{
+    width: 300px;
+    height: 155px;
+    position: relative;
+    margin: 10px 0 60px 25px;
+}
+#main .loginform .box .ma .lfetimg{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    left: 0;
+}
+#main .loginform .box .ma .rightimg{
+    position: absolute;
+    top: 0;
+    right: -18px;
+    display: none;
+}
+#main .loginform .box .ma p{
+    position: absolute;
+    bottom: -45px;
+    margin-left: 65px;
+    font-size: 14px;
+	color: #666666;
+}

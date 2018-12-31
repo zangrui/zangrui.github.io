@@ -1,0 +1,186 @@
+/* 导航 */
+#header {
+    border-bottom: 1px solid #e7e7e7;
+    box-shadow: 0px 2px 3px #e7e7e7;
+}
+#header .top p span{
+    margin-left: 265px;
+}
+#header .nav{
+    height: 77px;
+    position: relative;
+}
+#header .nav > img{
+    position: absolute;
+    top: -28px;
+    left: 0;
+}
+/*  主要内容 */
+#main{
+    font-size: 16px;
+}
+#main>p{
+    font-size: 16px;
+    color: #666666;
+    margin: 14px 0 4px;
+}
+#main>p a{
+    float: right;
+    color: #1080e9;
+    margin-right: 6px;
+}
+#main .tips{
+    height: 40px;
+    line-height: 40px;
+    background: #f2f2f2;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+#main .tips .right{
+    margin-right: 90px;
+}
+#main .tips>span,#main .tips .right>span{
+    color: #ff6600;
+}
+#main .tips .right>span{
+    font-size: 18px;
+}
+#main .legoupay{
+    font-size: 14px;
+    height: 35px;
+	line-height: 35px;
+    color: #bfbfbf;
+    margin: 10px 0;
+}
+#main .legoupay span{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    background: #ff6600;
+    color: #fff;
+    margin-right: 10px;
+}
+#main ul{
+    height: 34px;
+    background: #f2f2f2;
+    padding: 23px 60px;
+}
+#main ul li{
+    float: left;
+    color: #4d4d4d;
+    text-align: center;
+    margin-right: 30px;
+}
+#main ul li:nth-child(1){
+    width: 125px;
+    height: 30px;
+    border: 2px solid #bfbfbf;
+    line-height: 30px;
+    cursor: pointer;
+}
+#main ul li:nth-child(2){
+    width: 340px;
+    height: 30px;
+    border: 2px solid #bfbfbf;
+    line-height: 30px;
+    cursor: pointer;
+}
+#main ul li.active{
+    border: 2px solid #ff6600;
+    background: url(../img/zx.png) no-repeat right bottom;
+}
+#main ul li:nth-child(2) span{
+    color: #ff6600;
+    margin: 0 48px;
+}
+#main ul li:nth-child(2) i{
+    font-style:normal;
+    color: #bfbfbf;
+}
+#main ul li:nth-child(3){
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    background: #999;
+    color: #fff;
+}
+#main ul li:nth-child(4){
+    float: right;
+    height: 34px;
+    line-height: 34px;
+}
+#main ul li:nth-child(4) span{
+    color: #ff6600;
+    font-size: 18px;
+}
+#main .paybtn button{
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    background: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: none; 
+    margin: 10px 0 30px;   
+    cursor: pointer;  
+}
+#main .otherpay{
+    color: #bfbfbf;
+    font-size: 14px;
+}
+#main .otherpay span{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    background: #76aff5;
+    color: #fff;
+    margin-right: 10px;
+}
+#main .select{
+    height: 34px;
+    line-height: 34px;
+    background: #f2f2f2;
+    padding: 23px 60px;
+    color: #595959;
+    margin: 10px 0 60px;
+}
+
+.box{
+    width: 475px;
+    height: 280px;
+    background: #fff;
+    margin: 110px auto;
+}
+.box .top{
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px; 
+    color: #666;
+    background: #e6e6e6;
+}
+.box .top .x{
+    font-size: 20px;
+    cursor: pointer;
+}
+.box .btn{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    margin: 6px 175px;
+    cursor: pointer;
+    outline: none;
+}

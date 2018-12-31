@@ -1,0 +1,173 @@
+/* 导航 */
+#header {
+    border-bottom: 1px solid #e7e7e7;
+    box-shadow: 0px 2px 3px #e7e7e7;
+}
+#header .top p span{
+    margin-left: 265px;
+}
+#header .nav{
+    height: 77px;
+    position: relative;
+}
+#header .nav > img{
+    position: absolute;
+    top: -28px;
+    left: 0;
+}
+#header .nav .searchInput{
+    margin: 8px 0;
+}
+#header .nav .searchInput b{
+    font-weight: normal;
+    font-size: 12px;
+    color: #4d4d4d;
+    float: right;
+    margin:8px 10px;
+}
+
+/* 购物车 */
+#main{
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.shopCartTitle {
+    margin: 20px auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ff6700;
+}
+.shopCart  table {
+    width: 1200px;
+    margin: 30px auto;
+}
+.shopCart  table .allSelect {
+    vertical-align: middle;
+}
+.shopCart  table tr td {
+    border: none;
+}
+.shopCart  table tbody tr {
+    border-bottom: 2px solid #f1f1f1;
+}
+.shopCart  table  thead tr {
+    height: 60px;
+    background-color: #f2f2f2;
+    width: 1200px;
+    color: #808080;
+}
+.shopCart  table tbody {
+    width: 1200px;
+}
+.shopCart  table tbody tr {
+    height: 212px;
+    text-align: center;
+}
+.shopCart  table tbody tr:first-child{
+    height: 20px;
+    border-bottom: 6px solid #dfdfdf;
+}
+.shopCart  table tbody tr .num {
+    width: 75px;
+    border: 1px solid #999;
+    margin: 0 -1px;
+    text-align: center;
+    outline: none;
+    line-height: 22px;
+    height: 22px;
+}
+.shopCart  table tbody tr .add, .shopCart  table tbody tr .reduce {
+    width: 24px;
+    height: 24px;
+    background-color: buttonface;
+    vertical-align: bottom;
+    font-size: 16px;
+    cursor: pointer;
+}
+.shopCart  table tbody tr .del{
+    cursor: pointer;
+}
+.shopCart .account {
+    height: 60px;
+    line-height: 60px;
+    border:1px solid #f2f2f2;
+    margin: 30px auto;
+    color: #808080;
+}
+.shopCart .account .accountLeft {
+    text-indent: 40px;
+}
+.shopCart .account .accountLeft > input {
+    vertical-align: middle;
+}
+.allNum, .allPrice {
+    color: #ff6700;
+    font-size: 22px;
+    font-weight: 500;
+}
+.account .accountLeft span{
+    cursor: pointer;
+}
+.balance {
+    width: 130px;
+    height: 60px;
+    background-color: #ff6700;
+    color: #fff;
+    font-size: 22px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    outline: none;
+}
+#main input[type=checkbox]{
+    width: 16px;
+    height: 16px;
+}
+/* 猜你喜欢 */
+#popularProduct .sectionTitleBox{
+    margin-top: 6px;
+}
+#popularProduct .sectionTitleBox h3{
+    width: 120px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+    background: #ff6600;
+    text-align: center;
+}
+#popularProduct .productList{
+    margin: 50px 0 100px;
+}
+#popularProduct .productList>ul>li{
+    float: left;
+    width: 230px;
+    height: 280px;
+    border: 1px solid #f2f2f2
+}
+.productList>ul>li:not(:nth-child(5n+1)){
+    margin-left: 10px;
+}
+.productList>ul>li .img{
+    padding-top: 5px;
+}
+.productList>ul>li .desc{
+    margin: 5px 10px;
+}
+.productList>ul>li .desc a{
+    font-size: 14px;
+    color: #333;
+}
+.productList>ul>li .recommend{
+    text-indent: 10px;
+}
+.productList>ul>li .price{
+    font-size: 24px;
+    color: #f4290d;
+    margin: 10px;
+}
+.productList>ul>li .price del{
+    color: #c0c0c0; 
+    margin-left: 22px;
+}
+.productList>ul>li:hover{
+    background: #f2f2f2;
+}
